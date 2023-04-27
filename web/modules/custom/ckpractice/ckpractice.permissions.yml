@@ -1,0 +1,4 @@
+administer ckpractice configuration:
+  title: 'Administer ckpractice configuration'
+  description: 'Optional description.'
+  restrict access: true

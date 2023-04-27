@@ -1,0 +1,4 @@
+administer candidate_search configuration:
+  title: 'Administer candidate_search configuration'
+  description: 'Optional description.'
+  restrict access: true

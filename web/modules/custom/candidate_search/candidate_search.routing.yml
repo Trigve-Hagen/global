@@ -1,0 +1,16 @@
+candidate_search.example:
+  path: '/candidate-search/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\candidate_search\Controller\CandidateSearchController::build'
+  requirements:
+    _permission: 'access content'
+
+candidate_search.get_candidates:
+  path: '/candidate-search/get/candidates'
+  defaults:
+    _title: 'Candidates'
+    _controller: '\Drupal\candidate_search\Controller\CandidateSearchController::getCandidates'
+  requirements:
+    _permission: 'access content'
+

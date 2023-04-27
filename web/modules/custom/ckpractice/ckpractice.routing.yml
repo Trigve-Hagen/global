@@ -1,0 +1,15 @@
+ckpractice.example:
+  path: '/ckpractice/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\ckpractice\Controller\CkpracticeController::build'
+  requirements:
+    _permission: 'access content'
+
+ckpractice.settings_form:
+  path: '/admin/config/system/ckpractice'
+  defaults:
+    _title: 'ckpractice settings'
+    _form: 'Drupal\ckpractice\Form\SettingsForm'
+  requirements:
+    _permission: 'administer ckpractice configuration'

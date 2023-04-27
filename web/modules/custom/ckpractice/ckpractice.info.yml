@@ -1,0 +1,5 @@
+name: ckpractice
+type: module
+description: Module to practice CKEditor5 plugin development
+package: CKEditor 5
+core_version_requirement: ^9 || ^10

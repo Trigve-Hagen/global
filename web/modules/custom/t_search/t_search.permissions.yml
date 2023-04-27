@@ -1,0 +1,4 @@
+administer t_search configuration:
+  title: 'Administer t_search configuration'
+  description: 'Optional description.'
+  restrict access: true

@@ -1,0 +1,15 @@
+t_search.example:
+  path: '/t-search/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\t_search\Controller\TSearchController::build'
+  requirements:
+    _permission: 'access content'
+
+t_search.settings_form:
+  path: '/admin/config/system/t-search'
+  defaults:
+    _title: 'T Search settings'
+    _form: 'Drupal\t_search\Form\SettingsForm'
+  requirements:
+    _permission: 'administer t_search configuration'

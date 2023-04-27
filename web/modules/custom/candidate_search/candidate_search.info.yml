@@ -1,0 +1,5 @@
+name: Candidate Search
+type: module
+description: Uses the Google Civic Information API to help list an areas candidates up for election and information that will help people vote for the best one.
+package: Custom
+core_version_requirement: ^9 || ^10
